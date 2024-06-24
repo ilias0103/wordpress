@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100% auto;
+    height: 500px;
+    background-image: url("../img/main.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-image: fill 0 linear-gradient(#0001, #000);
+}
+
+header .header_menu{
+display: flex;
+justify-content: space-between;
+}
+
+.center{
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 200px;
+    margin: 10px 0 0 0;
+}
+.logo img:hover{
+    width: 210px;
+}
+.menu{
+    margin: 10px;
+    width: 780px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.menu ul li a:hover{
+    text-decoration: underline 2px orange;
+}
+
+.polzun select{
+    margin: 10px;
+    padding: 10px 5px 10px 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    color: #fff;
+}
+.polzun select option{
+    color: black;  
+}
+
+.profil img{
+    width: 45px;
+    margin: 9px ;
+}
+.profil img:hover{
+    width: 50px;
+}
+
+header h1{
+    font-size: 58px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+header p{
+    font-size: 24px;
+    color: #ffffff;
+    margin: 10px 0 0 0;
+}
+.sbor{
+    border-radius: 10px;
+    background-color: #03BAFE;
+    color: #fff;
+    border: none;
+    padding: 18px 25px;
+    margin: 60px 0 0 0;
+    margin-right: 20px;
+}
+.sbor:hover{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 16px 23px;
+    margin: 60px 0 0 0;
+    margin-right: 20px;
+}
+.sbor:active{
+    border-radius: 10px;
+    background-color: #03BAFE;
+    color: #fff;
+    border: none;
+    padding: 18px 25px;
+    margin: 60px 0 0 0;
+    margin-right: 20px;
+}
+
+.video{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 17px 25px;
+}
+.video:hover{
+    border-radius: 10px;
+    background-color: #03BAFE;
+    color: #fff;
+    border: none;
+    padding: 19px 25px;
+}
+.video:active{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 17px 25px;
+}
+
+.mechta{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.mechta h1{
+    color: black;
+    font-size: 40px;
+}
+.mechta button{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #03BAFE;
+    border: 1px solid #03BAFE;
+    padding: 10px 25px;
+}
+.mechta button:hover{
+    border-radius: 10px;
+    background-color: #03BAFE;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+}
+.mechta button:active{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #03BAFE;
+    border: 1px solid #03BAFE;
+    padding: 10px 25px;
+}
+
+.col_mechta img{
+    width: 360px;
+    height: 228px;
+    border-radius: 20px 20px 0 0;
+}
+.col_mechta{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.col_mechta .bold{
+    color: black;
+    font-weight: 700;
+    margin: 10px;
+    font-size: 16px;
+}
+.col_mechta .mechta_text{
+    color: #000;
+    font-size: 16px;
+    margin: 10px;
+    width: 340px;
+    line-height: 1.5;
+}
+.col_mechta .time_perevod{
+    color: gray;
+    font-size: 16px;
+    margin: 10px;
+}
+.col_mechta .time_perevod1{
+    color: gray;
+    font-size: 16px;
+    margin: 10px;
+    margin-top: 35px;
+}
+.linia{
+    width: 330px;
+    height: 5px;
+    background-color: #03BAFE;
+    margin: 10px;
+}
+.col_mechta .summa{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px;
+}
+.mechta1{
+    margin-top: 20px;
+    max-width: 360px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+}
+
+
+.nacometa{
+    max-width:1200px;
+    height:122px ;
+    border-radius: 20px;
+    background-color: #EBFAFFB2;
+    margin-top: 50px;
+}
+.nacometa p{
+text-align: center;
+padding-top: 45px;
+color:#03BAFE;
+font-size: 24px;
+}
+
+.text_o_mechte{
+    font-size: 40px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info_invest{
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info_krug{
+    max-width: 700px;
+    max-height: 562px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.info_krug .krug1{
+    position: relative;
+    width: 457px;
+    height: 457px;
+    border-radius: 50%;
+    background-color: #5ED3FF66;
+    z-index: 1;
+}
+.info_krug .krug2{
+    position: absolute;
+    width: 363px;
+    height: 363px;
+    border-radius: 50%;
+    background-color: #50cefc66;
+    z-index: 2;
+}
+.info_krug .krug3{
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    background-color: #03BAFE33;
+    z-index: 3;
+}
+.info_krug .krug4{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #FFA200;
+    z-index: 4;
+}
+.info_krug .krug5{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: url(../img/30258560054366820_73b6.jpg) no-repeat;
+    background-size: cover;
+    background-position: contain;
+    border: 1px solid #fff;
+    z-index: 5;
+}
+.info_table{
+    width: 400px;
+}
+.info_table .table1{
+    width: 400px;
+    border: 2px solid #03BAFE26;
+    border-radius: 20px;
+}
+.info_table .table1 h2{
+    font-size: 24px;
+    width: 250px;
+    margin: 20PX;
+}
+.info_table .table1 .number{
+    font-size: 24px;
+    margin: 20PX;
+    color: #03BAFE;
+    font-weight: 700;
+}
+.info_table .table1 p{
+    font-size: 16px;
+    margin: 20PX;
+    color: #999999;
+    font-weight: 700;
+}
+
+.info_table .table2{
+    width: 400px;
+    background-color: #EBFAFF;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+.info_table .table2 h2{
+    font-size: 24px;
+    width: 250px;
+    padding: 20px;
+}
+.info_table .table2 ul li{
+    font-size: 16px;
+    width: 300px;
+    margin: 10PX 0 0 40px;
+    line-height: 1.5;
+}
+.info_table .table2 ul{
+    list-style-image: url(./img/icons8-инстаграм-галочка-20.png);
+}
+.info_table .table2 .nachat{
+    background-color: #FFA200;
+    color: #000;
+    padding: 15PX 15PX;
+    border-radius: 10px;
+    border: none;
+    margin:20px;
+}
+.info_table .table2 .nachat:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFA200;
+    padding: 14PX 14PX;
+    border-radius: 10px;
+    border: 1px solid #FFA200;
+    margin:20px;
+}
+.info_table .table2 .nachat:active{
+    background-color: #FFA200;
+    color: #000;
+    padding: 15PX 15PX;
+    border-radius: 10px;
+    border: none;
+    margin:20px;
+}
+.info_table .table2 .uznat{
+    background-color: #03BAFE;
+    color: #FFF;
+    padding: 15PX 15PX;
+    border-radius: 10px;
+    border: none;
+    margin:20px 20px 20px 0;
+}
+.info_table .table2 .uznat:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #03BAFE;
+    padding: 14PX 14PX;
+    border-radius: 10px;
+    border: 1px solid #03BAFE;
+    margin:20px 20px 20px 0;
+}
+.info_table .table2 .uznat:active{
+    background-color: #03BAFE;
+    color: #FFF;
+    padding: 15PX 15PX;
+    border-radius: 10px;
+    border: none;
+    margin:20px 20px 20px 0;
+}
+
+.com_mechta{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 100px;
+}
+
+.coment_mechta{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.coment1{
+    width: 360px;
+    background-color: #fff;
+    border-radius: 20px;
+   background-color: #d9eff7;
+}
+.coment2{
+    width: 360px;
+    background-color: #d9eff7;
+    border-radius: 20px;
+}
+.coment3{
+    width: 360px;
+    background-color: #d9eff7;
+    border-radius: 20px;
+}
+.coment{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px;
+}
+.coment_p{
+    font-size: 16px;
+    font-weight: 400px;
+    margin: 20px;
+    line-height: 1.3;
+}
+.coment1 ul{
+    list-style-image: url(./img/icons8-пользователь-мужчина-в-кружке-32.png);
+    margin:0 0 20px 60px;
+}
+.coment2 ul{
+    list-style-image: url(./img/icons8-пользователь-мужчина-в-кружке-32.png);
+    margin:40px 0 20px 60px;
+}
+.coment3 ul{
+    list-style-image: url(./img/icons8-пользователь-мужчина-в-кружке-32.png);
+    margin:40px 0 20px 60px;
+}
+
+.coment_face{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.coment_face img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.vozmosnosti{
+    margin-top: 100px;
+}
+.vozmosnosti .h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.vozmosnosti .p{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 40px 0 40px 0;
+}
+.col_punkt{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.punkt{
+    width: 260px;
+    background-color: #EBFAFFB2;
+    border-radius: 20px;
+    
+}
+.punkt h2{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px;
+}
+.punkt p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+}
+.punkt img{
+    margin: 10px;
+}
+
+.fandraiz{
+    margin-top: 100px;
+}
+.fandraiz h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.fandraiz details{
+    margin-top: 40px;
+}
+.fandraiz details summary{
+    font-size: 24px;
+    font-weight: 400;
+}
+.fandraiz details p{
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.fandraiz summary::marker{
+    color: #03BAFE;
+    border: 1px solid #000;
+    width: 32px;
+    height: 32px;
+}
+
+footer{
+    margin-top: 100px;
+}
+footer a{
+    color: #03BAFE;
+    font-size: 14px;
+}
+footer h2{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center ;
+}
+footer .pochta_center{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer .pochta{
+    width: 470px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.info{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #F9F9F9;
+    flex-wrap: wrap;
+}
+
+.info .politika{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info .politika p{
+    color: #03BAFE;
+    font-size: 14px;
+}
+.info .soc_set{
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .prava{
+    margin-top: 50px;
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    font-weight: 400;
+}
